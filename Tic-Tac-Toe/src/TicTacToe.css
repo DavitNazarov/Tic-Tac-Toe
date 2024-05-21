@@ -1,0 +1,40 @@
+.game {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  
+  .game-board {
+    margin-right: 20px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    gap: 5px;
+  }
+  
+  .square {
+    width: 80px;
+    height: 80px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .game-info {
+    font-size: 24px;
+  }
+  
+  .game-info button {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
